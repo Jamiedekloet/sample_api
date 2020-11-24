@@ -1,0 +1,24 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "name": "Monke"
+    },
+    {
+      "id": 2,
+      "name": "Giraffe"
+    },
+    {
+      "id": 3,
+      "name": "Elephant"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Jamie de Kloet",
+      "username": "jamie.dekloet@student.hu.nl",
+      "password": "aaa"
+    }
+  ]
+}
