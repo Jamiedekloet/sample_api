@@ -1,7 +1,7 @@
 # Sample api
 sample data emitting api with token based auth with animals! Build in NodeJS
 
-##Usage:
+## Usage:
 
 Run with:
 ``npm start`` (You need to have NodeJS and npm installed)
@@ -14,7 +14,7 @@ This returns your token.
 ### Need Token:
 Make sure you provide x-access-token in headers
 
-#####Get all animals
+##### Get all animals
 ``GET /animals ``
 returns something like:
 ```
@@ -36,7 +36,7 @@ returns something like:
 }
 ```
 
-#####Add new animal
+##### Add new animal
 ``POST /animals``
 add body like:
 ```
@@ -44,7 +44,7 @@ add body like:
     name: Zebra
 }
 ```
-##Used packages:
+## Used packages:
 
 - [ExpressJS for http framework](https://expressjs.com/)
 - [jsonwebtoken for token based authentication](https://github.com/auth0/node-jsonwebtoken)
